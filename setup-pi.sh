@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "Updating repositories"
+sudo apt-get update 
 echo "Installing depedencies"
 sudo apt-get install -y python-rpi.gpio python3-rpi.gpio netcat
 echo " "
